@@ -7,3 +7,8 @@ docker run --name jenkins-blueocean --rm --detach `
   --volume jenkins-data:/var/jenkins_home `
   --volume jenkins-docker-certs:/certs/client:ro `
   --publish 8080:8080 --publish 50000:50000 myjenkins-blueocean:1.1
+  
+  
+  
+  
+  cat /var/jenkins_home/secrets/initialAdminPassword
